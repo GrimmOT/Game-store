@@ -1,0 +1,67 @@
+body{
+    background-image: url(imge/3400828.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    color: #eee;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #1a1a1a;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.7);
+    border-radius: 10px;
+    position: fixed;
+    top: 20px;
+}
+.sidebar.left {
+    left: 20px;
+}
+.sidebar.right {
+    right: 20px;
+}
+.content {
+    max-width: 900px;
+    margin: 20px auto;
+    background-color: #222;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+h1, h2, h3 {
+    text-align: center;
+    color: #625ec1;
+}
+p, li {
+    font-size: 18px;
+    line-height: 1.6;
+}
+iframe {
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+ul {
+    margin-left: 20px;
+    font-size: 18px;
+}
+.buy-button {
+    display: block;
+    width: 220px;
+    margin: 30px auto;
+    padding: 15px 0;
+    background-color: #625ec1;
+    color: #eee;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
